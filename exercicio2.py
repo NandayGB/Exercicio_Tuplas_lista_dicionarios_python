@@ -9,7 +9,7 @@ for i in range(10):
     print ('Aluno: ' + str(i + 1))
     for j in range(4):
         notasAluno.append(float(input('Nota: ' + str(j+1) + '\n')))
-        media += notasAluno[j]   
+        media += notasAluno[j]
 
     media = media/4
     listaNotas.append(media)
